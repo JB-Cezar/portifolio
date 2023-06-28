@@ -8,7 +8,7 @@
                 <p>
                     Please, contact me if you are interested in my work
                 </p>
-                <a href="#">Contact Me</a>
+                <router-link to="/contact">Contact Me</router-link>
             </div>
         </section>
     </header>

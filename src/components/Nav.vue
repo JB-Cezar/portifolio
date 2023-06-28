@@ -1,11 +1,15 @@
 <template>
     <nav>
-        <ul>
-            <li><router-link to="/home">Home</router-link></li>
-            <li><router-link to="#">About</router-link></li>
-            <li><router-link to="/gallery">Gallery</router-link></li>
-            <li><router-link to="#">Contact</router-link></li>
-        </ul>
+        <div>
+            <ul>
+                <li><router-link  class="nav-link" to="/">Home</router-link></li>
+                <li><router-link  class="nav-link" to="/about">About</router-link ></li>
+                <li>
+                    <router-link  class="nav-link" to="/gallery">Gallery</router-link>
+                </li>
+                <li><router-link  class="nav-link" to="/contact">Contact</router-link ></li>
+            </ul>
+        </div>
     </nav>
 </template>
 
@@ -33,7 +37,7 @@ export default {
             margin: 0 10px;
         }
 
-        li a {
+        li .nav-link {
             color: #333;
             text-decoration: none;
             font-size: 16px;
@@ -42,7 +46,7 @@ export default {
             transition: background-color 0.3s ease;
         }
 
-        li a:hover {
+        li .nav-link:hover {
             background-color: #333;
             color: #fff;
         }

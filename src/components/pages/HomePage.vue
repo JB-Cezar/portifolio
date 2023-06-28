@@ -1,7 +1,7 @@
 <template>
     <main>
         <!-- WORK -->
-        <section class="work" id="work">
+        <section class="blok" id="work">
             <article>
                 <h3>Work</h3>
                 <aside>
@@ -21,7 +21,7 @@
             </article>
         </section>
         <!-- EDUCATION -->
-        <section class="education" id="education">
+        <section class="blok" id="education">
             <article>
                 <h3>Education</h3>
                 <section>
@@ -44,7 +44,7 @@
             </article>
         </section>
         <!-- LANGUAGE -->
-        <section class="language" id="language">
+        <section class="blok" id="language">
             <article>
                 <h3>Language</h3>
                 <section>
@@ -74,5 +74,40 @@ export default{
 </script>
 
 <style scoped>
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #27374D;
 
+}
+.blok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: #526D82;
+    width: 85%;
+    row-gap: 2vh;
+    padding: 2%;
+}
+article > section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+}
+h4,h3,small,p{
+    color: #DDE6ED;
+}
+p{
+    width: 95%;
+}
 </style>

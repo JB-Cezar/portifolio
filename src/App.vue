@@ -1,29 +1,25 @@
 <template>
-  <HeaderComponent/>
-  <NavComponent/>
-  <HomePage/>
+  <div>
+    <HeaderComponent/>
+    <NavComponent/>
+    <router-view/>
+  </div>
 </template>
 
 <script>
 import HeaderComponent from './components/Header.vue'
 import NavComponent from './components/Nav.vue'
-import HomePage from './components/pages/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     NavComponent,
-    HomePage
   }
 }
 </script>
 
 <style scoped>
-*{
-  margin: 0;
-  padding: 0;
-}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
