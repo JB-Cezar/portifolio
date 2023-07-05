@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
     nav {
-            background-color: #f1f1f1;
+            background-color: #526D82;
             padding: 10px;
         }
 
@@ -38,7 +38,7 @@ export default {
         }
 
         li .nav-link {
-            color: #333;
+            color: #DDE6ED;
             text-decoration: none;
             font-size: 16px;
             padding: 5px 10px;

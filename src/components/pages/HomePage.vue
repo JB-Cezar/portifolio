@@ -1,5 +1,6 @@
 <template>
     <main>
+        <h1>My Skills</h1>
         <!-- WORK -->
         <section class="blok" id="work">
             <article>
@@ -77,7 +78,9 @@ export default{
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #27374D;
+    padding: 2%;
 
 }
 .blok{
@@ -86,6 +89,7 @@ main{
     align-items: center;
     padding-bottom: 2vh;
     padding-top: 2vh;
+    width: 100%;
 }
 article{
     display: flex;
@@ -94,18 +98,23 @@ article{
     width: 85%;
     row-gap: 2vh;
     padding: 2%;
+    border-radius: 20px;
 }
 article > section{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
 }
 aside{
     display: flex;
     flex-direction: column;
 }
-h4,h3,small,p{
+h1,h4,h3,small,p{
     color: #DDE6ED;
+}
+h1{
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 p{
     width: 95%;
