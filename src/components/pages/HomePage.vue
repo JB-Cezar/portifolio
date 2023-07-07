@@ -17,6 +17,11 @@
                             <p>70%</p>
                         </figure>
                         <figure>
+                            <img src="../../../dist/img/seal-color.png" alt="scss">
+                            <small id="css" style="width: 67%;"></small>
+                            <p>67%</p>
+                        </figure>
+                        <figure>
                             <img src="../../../dist/img/Unofficial_JavaScript_logo_2.svg.png" alt="js">
                             <small id="php" style="width: 95%;"></small>
                             <p>95%</p>
@@ -133,95 +138,3 @@ export default{
     name: 'HomePage'
 }
 </script>
-
-<style scoped>
-/* .bigBlok{
-    display: flex;
-    flex-direction: row;
-}
-.bigBlok>aside{
-    width: 60%;
-    align-items: center;
-}
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #27374D;
-    padding: 2%;
-
-}
-.blok{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 2vh;
-    padding-top: 2vh;
-    width: 53%;
-}
-article{
-    display: flex;
-    flex-direction: column;
-    background-color: #526D82;
-    width: 85%;
-    row-gap: 4vh;
-    padding: 2%;
-    border-radius: 20px;
-}
-article > section{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-aside{
-    display: flex;
-    flex-direction: column;
-}
-h1,h4,h3,small,p{
-    color: #DDE6ED;
-}
-h1{
-    padding-bottom: 3%;
-    padding-top: 1%;
-}
-h4{
-    font-size: 20px;
-}
-h3{
-    background-color: #27374D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    font-size: 4vh;
-    border-radius: 8px;
-}
-#work section{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1vh;
-}
-#skills p{
-    width: 5%;
-}
-p{
-    width: 95%;
-}
-#skills section{
-    display: flex;
-    flex-direction: column;
-    row-gap: 5vh;
-}
-figure{
-    display: flex;
-    align-items: center;
-    column-gap: 1vh;
-}
-figure > small{
-    height: 4px;
-    background: linear-gradient(90deg, #27374D 0%,transparent 100%);
-}
-img{
-    width: 5%;
-} */
-</style>
