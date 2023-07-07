@@ -7,7 +7,6 @@
                 <li>
                     <router-link  class="nav-link" to="/gallery">Gallery</router-link>
                 </li>
-                <li><router-link  class="nav-link" to="/contact">Contact</router-link ></li>
             </ul>
         </div>
     </nav>

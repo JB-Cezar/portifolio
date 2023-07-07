@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <main>
         <h1>About Me</h1>
-        <section>
+        <section class="about">
             <figure>
                 <img class="profile-image" src="../../assets/img/eu.jpeg" alt="me">
                 <figcaption>
@@ -31,7 +31,12 @@
                 </figcaption>
             </figure>
         </section>
-    </div>
+        <section class="blok">
+            <aside class="download">
+                <a href="../../../PHP/resume/RESUME JOAO BENTO C CRESCENCIO.docx (1).pdf" download="Resume João Bento">Download My Resume</a>
+            </aside>
+        </section>
+    </main>
 </template>
 
 
@@ -40,37 +45,3 @@ export default {
     name: 'AboutPage'
 }
 </script>
-
-<style scoped>
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
-    background-color: #27374D;
-}
-section{
-    display: flex;
-    align-items: center;
-    column-gap: 3vh;
-}
-figure{
-    padding: 3%;
-    background-color: #526D82;
-    border-radius: 30px;
-}
-h1{
-    padding-bottom: 3%;
-}
-p,h1{
-    padding-top: 1%;
-    color: #DDE6ED;
-}
-.profile-image {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    width: 10%;
-}
-</style>

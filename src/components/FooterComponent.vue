@@ -1,5 +1,6 @@
 <template>
 <footer>
+    <p>Copyright &copy; Made by João Bento 2023</p>
     <ul>
         <li>
             <a target="_blank" href="https://www.facebook.com/joaobento.crescencio" class="fa-brands fa-facebook-f"></a>
@@ -26,9 +27,12 @@ export default {
 <style scoped>
 footer{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vh;
     justify-content: center;
     background-color: #526D82;
-    height: 10vh;
+    height: 15vh;
 }
 ul{
     display: flex;
@@ -40,6 +44,9 @@ ul{
 }
 li{
     display: flex;
+}
+p{
+   color: #DDE6ED; 
 }
 a{
     color: #DDE6ED;

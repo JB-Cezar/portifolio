@@ -1,7 +1,6 @@
 import HomePage from '../components/pages/HomePage.vue';
 import GalleryPage from '../components/pages/Gallery.vue';
 import AboutPage from '../components/pages/About.vue';
-import ContactPage from '../components/pages/Contact.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
@@ -19,11 +18,6 @@ const routes = [
         path: "/about",
         name: "AboutPage",
         component: AboutPage
-    },
-    {
-        path: "/contact",
-        name: "ContactPage",
-        component: ContactPage
     },
 ];
 

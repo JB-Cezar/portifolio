@@ -1,37 +1,50 @@
 <template>
-<div class="gallery">
+<main class="gallery">
+  <ModalBox v-if="showModal" @close="closeModal" :description="modalData"/>
     <h1>My Projects</h1>
     <aside>
-      <div class="pic" v-for="pic in gallery" :key="pic.id">
+      <div class="pic" @click="openModal(index)" v-for="(pic, index) in gallery" :key="index">
         <figure>
           <img :src= pic.picture :alt= pic.name>
           <figcaption>
             <h3>{{pic.name}}</h3>
             <small>{{pic.day}}</small>
-            <p>{{pic.description}}</p>
           </figcaption>
         </figure>
       </div>
     </aside>
-</div>
+</main>
 </template>
 <script>
+import ModalBox from "../pages/ModalBox.vue"
 export default {
   name: 'GalleryPage',
+  components:{
+    ModalBox
+  },
   data(){
     return {
       gallery: [],
-      galleryApi: "http://localhost/Final_Project_Portifolio_JB/portifolio-jb/PHP/portifolio/inc/rest/api/V2/portifolio.php"
+      galleryApi: "http://localhost/Final_Project_Portifolio_JB/portifolio-jb/PHP/portifolio/inc/rest/api/V2/portifolio.php",
+      showModal: false,
+      modalData: {}
     }
   },
   methods: {
     async getGallery(){
-        try{
-            let response = await fetch(this.galleryApi);
-            this.gallery = await response.json();
-        }catch(error){
-            console.log(error);
-        }
+      try{
+        let response = await fetch(this.galleryApi);
+        this.gallery = await response.json();
+      }catch(error){
+        console.log(error);
+      }
+    },
+    openModal(i) {
+      this.showModal = true;
+      this.modalData=this.gallery[i];
+    },
+    closeModal() {
+      this.showModal = false;
     },
   },
   created(){
@@ -41,7 +54,7 @@ export default {
 </script>
 
 <style scoped>
-.gallery{
+/* .gallery{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +103,6 @@ figcaption{
 }
 img{
   width: 90%;
-  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+} */
 </style>

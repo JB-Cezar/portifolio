@@ -1,0 +1,37 @@
+@media (min-width: $mobileVersion) {
+    .class-04-header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("/dist/img/pexels-kevin-ku-577585.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+        width: 100%;
+        .header-left {
+            height: 100%;
+            width: 50%;
+            background-color: rgba(240, 240, 240, 0.535);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .header-left {
+            color: #27374D;
+        }
+    
+        div{
+            display: flex;
+            flex-direction: column;
+            row-gap: 2vh;
+            align-items: center;
+            text-align: center;
+            p{
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+    }
+}
