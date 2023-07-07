@@ -1,10 +1,11 @@
-import HomePage from './../components/pages/HomePage.vue';
-import GalleryPage from './../components/pages/GalleryPage.vue';
+import HomePage from '../components/pages/HomePage.vue';
+import GalleryPage from '../components/pages/Gallery.vue';
+import AboutPage from '../components/pages/About.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
     {
-        path: "/home",
+        path: "/",
         name: "HomePage",
         component: HomePage
     },
@@ -12,6 +13,11 @@ const routes = [
         path: "/gallery",
         name: "GalleryPage",
         component: GalleryPage
+    },
+    {
+        path: "/about",
+        name: "AboutPage",
+        component: AboutPage
     },
 ];
 
