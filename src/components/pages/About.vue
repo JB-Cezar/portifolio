@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>About Me</h1>
+        <h1 style="color:#DDE6ED;">About Me</h1>
         <section class="about">
             <figure>
                 <img class="profile-image" src="../../assets/img/eu.jpeg" alt="me">
