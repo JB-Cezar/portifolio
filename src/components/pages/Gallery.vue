@@ -1,108 +1,88 @@
 <template>
 <main class="gallery">
-  <ModalBox v-if="showModal" @close="closeModal" :description="modalData"/>
-    <h1>My Projects</h1>
+  <h1>My Projects</h1>
     <aside>
-      <div class="pic" @click="openModal(index)" v-for="(pic, index) in gallery" :key="index">
-        <figure>
-          <img :src= pic.picture :alt= pic.name>
-          <figcaption>
-            <h3>{{pic.name}}</h3>
-            <small>{{pic.day}}</small>
-          </figcaption>
-        </figure>
+      <div class="pic">
+          <figure>
+            <img src="../../assets/img/project/p1.png" alt="Robotic LTDA">
+            <figcaption>
+              <h3>Horaizon Robotic LTDA</h3>
+              <small>02/12/2023</small>
+            </figcaption>
+          </figure>
+      </div>
+      <div class="pic">
+        <a target="_blank" href="https://github.com/Dayhun/TourGuide">
+          <figure>
+            <img src="../../assets/img/project/p2.png" alt="">
+            <figcaption>
+              <h3>Tour Guide</h3>
+              <small>03/16/2023</small>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="pic">
+        <a target="_blank" href="https://github.com/JB-Cezar/RPG-game">        
+          <figure>
+            <img src="../../assets/img/project/p3.png" alt="">
+            <figcaption>
+              <h3>RPG Game</h3>
+              <small>04/19/2023</small>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="pic">
+        <a target="_blank" href="https://github.com/JB-Cezar/Shop-Cart">        
+          <figure>
+            <img src="../../assets/img/project/p4.png" alt="">
+            <figcaption>
+              <h3>Shop Cart</h3>
+              <small>03/30/2023</small>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="pic">
+        <a target="_blank" href="https://github.com/ayapan0811/FinalProject-JS2">        
+          <figure>
+            <img src="../../assets/img/project/p5.png" alt="">
+            <figcaption>
+              <h3>Bowwow Sitter</h3>
+              <small>05/13/2023</small>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="pic">
+        <a target="_blank" href="https://github.com/JB-Cezar/Final-Project-PHP">        
+          <figure>
+            <img src="../../assets/img/project/p6.png" alt="">
+            <figcaption>
+              <h3>Food Truck</h3>
+              <small>06/08/2023</small>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="pic">
+        <a target="_blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan">        
+          <figure>
+            <img src="../../assets/img/project/p7.png" alt="">
+            <figcaption>
+              <h3>Sunny Weather</h3>
+              <small>07/08/2023</small>
+            </figcaption>
+          </figure>
+        </a>
       </div>
     </aside>
 </main>
 </template>
 <script>
-import ModalBox from "../pages/ModalBox.vue"
 export default {
   name: 'GalleryPage',
-  components:{
-    ModalBox
-  },
-  data(){
-    return {
-      gallery: [],
-      galleryApi: "http://localhost/Final_Project_Portifolio_JB/portifolio-jb/PHP/portifolio/inc/rest/api/V2/portifolio.php",
-      showModal: false,
-      modalData: {}
-    }
-  },
-  methods: {
-    async getGallery(){
-      try{
-        let response = await fetch(this.galleryApi);
-        this.gallery = await response.json();
-      }catch(error){
-        console.log(error);
-      }
-    },
-    openModal(i) {
-      this.showModal = true;
-      this.modalData=this.gallery[i];
-    },
-    closeModal() {
-      this.showModal = false;
-    },
-  },
-  created(){
-    this.getGallery();
-  }
 }
 </script>
 
-<style scoped>
-/* .gallery{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #27374D;
-    padding: 2%;
-}
-h1,h3,small,p{
-  color: #DDE6ED;
-}
-h1{
-  padding-bottom: 3%;
-}
-h3{
-  font-size: 30px;
-}
-small{
-  font-size: 20px;
-}
-aside{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 2vh;
-  column-gap: 2vh;
-}
-.pic{
-  width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  background-color: #526D82;
-}
-figure{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 3vh;
-  padding: 2%;
-}
-figcaption{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 83%;
-  row-gap: 2vh;
-}
-img{
-  width: 90%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-} */
-</style>

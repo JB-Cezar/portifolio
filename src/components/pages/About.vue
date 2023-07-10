@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>About Me</h1>
+        <h1 style="color:white;">About Me</h1>
         <section class="about">
             <figure>
                 <img class="profile-image" src="../../assets/img/eu.jpeg" alt="me">
@@ -33,7 +33,7 @@
         </section>
         <section class="blok">
             <aside class="download">
-                <a href="../../../PHP/resume/RESUME JOAO BENTO C CRESCENCIO.docx (1).pdf" download="Resume João Bento">Download My Resume</a>
+                <a href="../../../PHP/resume/RESUME JOAO B C CRESCENCIO.docx.pdf" download="Resume João Bento">Download My Resume</a>
             </aside>
         </section>
     </main>

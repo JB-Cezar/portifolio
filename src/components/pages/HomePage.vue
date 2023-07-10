@@ -7,52 +7,52 @@
                     <h3>Developer Skills</h3>
                     <section>
                         <figure>
-                            <img src="../../../dist/img/HTML5_logo_and_wordmark.svg.png" alt="HTML5">
+                            <img src="../../assets/img/logos/HTML5_logo_and_wordmark.svg.png" alt="HTML5">
                             <small id="html" style="width: 97%;"></small>
                             <p>97%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/CSS3_logo_and_wordmark.svg.png" alt="css3">
+                            <img src="../../assets/img/logos/CSS3_logo_and_wordmark.svg.png" alt="css3">
                             <small id="css" style="width: 70%;"></small>
                             <p>70%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/seal-color.png" alt="scss">
+                            <img src="../../assets/img/logos/seal-color.png" alt="scss">
                             <small id="css" style="width: 67%;"></small>
                             <p>67%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/Unofficial_JavaScript_logo_2.svg.png" alt="js">
+                            <img src="../../assets/img/logos/Unofficial_JavaScript_logo_2.svg.png" alt="js">
                             <small id="php" style="width: 95%;"></small>
                             <p>95%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/png-transparent-jquery-plain-wordmark-logo-icon-thumbnail.png" alt="jquery">
+                            <img src="../../assets/img/logos/png-transparent-jquery-plain-wordmark-logo-icon-thumbnail.png" alt="jquery">
                             <small id="php" style="width: 87%;"></small>
                             <p>87%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/React-icon.svg.webp" alt="React">
+                            <img src="../../assets/img/logos/React-icon.svg.webp" alt="React">
                             <small id="php" style="width: 85%;"></small>
                             <p>85%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/Vue.js_Logo_2.svg.png" alt="vue">
+                            <img src="../../assets/img/logos/Vue.js_Logo_2.svg.png" alt="vue">
                             <small id="vue" style="width: 80%;"></small>
                             <p>80%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/PHP-logo.svg.png" alt="php">
+                            <img src="../../assets/img/logos/PHP-logo.svg.png" alt="php">
                             <small id="php" style="width: 70%;"></small>
                             <p>70%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/Bootstrap_logo.svg.png" alt="Bootstrap">
+                            <img src="../../assets/img/logos/Bootstrap_logo.svg.png" alt="Bootstrap">
                             <small id="php" style="width: 60%;"></small>
                             <p>60%</p>
                         </figure>
                         <figure>
-                            <img src="../../../dist/img/MySQL-Logo.png" alt="MySQL">
+                            <img src="../../assets/img/logos/MySQL-Logo.png" alt="MySQL">
                             <small id="php" style="width: 95%;"></small>
                             <p>95%</p>
                         </figure>
