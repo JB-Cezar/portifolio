@@ -228,7 +228,7 @@ main {
   .class-04-header .header-left {
     height: 100%;
     width: 50%;
-    background-color: rgba(240, 240, 240, 0.222);
+    background-color: rgba(240, 240, 240, 0.57);
     display: flex;
     align-items: center;
     justify-content: center;

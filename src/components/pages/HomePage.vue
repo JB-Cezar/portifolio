@@ -66,11 +66,11 @@
                         <h3>Work</h3>
                         <section>
                             <aside>
-                                <h4>Kitchen Assistant - McDonald's</h4>
-                                <small>2020-2021</small>
+                                <h4>Restaurant Assistant - Rio Brazilian Steakhouse</h4>
+                                <small>2022</small>
                             </aside>
                             <p>
-                                Responsible for helping with the daily operation of the restaurant, keeping the area clean and organized, assisting with customer service and ensuring service efficiency.
+                                In this job we have to have great communication and teamwork so that we can deliver the food in the fastest and most delicious way to the customers.
                             </p>
                         </section>
                         <section>

@@ -3,10 +3,10 @@
         <section class="header-left">
             <div>
                 <h2>
-                   My personal portfolio
+                   HI I AM JOÃO BENTO CRESCENCIO
                 </h2>
                 <p>
-                    Please, contact me if you are interested in my work
+                    I'm a Computer Technician, web developer
                 </p>
             </div>
         </section>
@@ -18,3 +18,11 @@ export default {
   name: 'HeaderComponent'
 }
 </script>
+<style scoped>
+.class-04-header{
+    background-image: url("../assets/img/pexels-kevin-ku-577585.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
