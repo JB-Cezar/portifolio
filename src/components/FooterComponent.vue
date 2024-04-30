@@ -1,6 +1,6 @@
 <template>
 <footer>
-    <p>Copyright &copy; Made by João Bento 2023</p>
+    <p>Copyright &copy; Feito por João Bento 2023</p>
     <ul>
         <li>
             <a target="_blank" href="https://www.facebook.com/joaobento.crescencio" class="fa-brands fa-facebook-f"></a>

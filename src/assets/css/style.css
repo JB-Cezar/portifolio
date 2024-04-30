@@ -96,6 +96,7 @@ main {
   }
   .home #language h4, .home #education h4 {
     font-size: 12px;
+    text-align: center;
   }
   .home #language small, .home #education small {
     font-size: 10px;
@@ -373,6 +374,9 @@ main {
     -moz-column-gap: 1vh;
          column-gap: 1vh;
     align-items: normal;
+  }
+  .home .bigBlok #skills {
+    width: 80%;
   }
 }
 @media (min-width: 1000px) {

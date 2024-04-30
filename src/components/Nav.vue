@@ -2,10 +2,10 @@
     <nav>
         <div>
             <ul>
-                <li><router-link  class="nav-link" to="/">Home</router-link></li>
-                <li><router-link  class="nav-link" to="/about">About</router-link ></li>
+                <li><router-link  class="nav-link" to="/">Principal</router-link></li>
+                <li><router-link  class="nav-link" to="/about">Sobre</router-link ></li>
                 <li>
-                    <router-link  class="nav-link" to="/gallery">Gallery</router-link>
+                    <router-link  class="nav-link" to="/gallery">Galeria</router-link>
                 </li>
             </ul>
         </div>

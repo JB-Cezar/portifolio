@@ -3,10 +3,10 @@
         <section class="header-left">
             <div>
                 <h2>
-                   HI I AM JOÃO BENTO CRESCENCIO
+                   OI EU SOU JOÃO BENTO CRESCENCIO
                 </h2>
                 <p>
-                    I'm a Computer Technician, web developer
+                    Sou Desenvolvedor Web
                 </p>
             </div>
         </section>
