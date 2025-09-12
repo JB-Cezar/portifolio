@@ -10,9 +10,7 @@
                 </p>
                 <div class="language-buttons">
                     <p @click="setLocale('pt-BR')">PT-BR</p>
-                    <span aí
-                    
-                    Ela fala> | </span>
+                    <span> | </span>
                     <p @click="setLocale('en')">EN</p>
                 </div>
             </div>
