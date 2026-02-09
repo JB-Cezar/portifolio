@@ -1,7 +1,7 @@
 <template>
   <div>
-    <HeaderComponent/>
     <NavComponent/>
+    <HeaderComponent/>
     <router-view/>
     <FooterComp/>
   </div>

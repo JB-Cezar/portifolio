@@ -26,41 +26,52 @@ export default {
 
 <style scoped>
 footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 3vh;
-    justify-content: center;
-    background-color: #526D82;
-    height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.2rem;
+  justify-content: center;
+  background-color: #020617;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 1.8rem 1.5rem;
 }
+
 ul{
-    display: flex;
-    width: 20%;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  column-gap: 0.8rem;
+  margin: 0;
+  padding: 0;
 }
+
 li{
-    display: flex;
+  display: flex;
 }
+
 p{
-   color: #DDE6ED; 
+  color: #9ca3af;
+  font-size: 0.85rem;
 }
+
 a{
-    color: #DDE6ED;
-    text-decoration: none;
-    width: 5vh;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    transition: background-color 0.3s ease;
+  color: #e5f0ff;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  transition: background-color 0.18s ease-out, transform 0.18s ease-out;
+  background-color: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
 }
+
 a:hover{
-    background-color: #333;
-    color: #fff;
+  background: radial-gradient(circle at 0% 0%, #22c55e, #ff4b81);
+  color: #050816;
+  transform: translateY(-2px);
 }
 </style>
